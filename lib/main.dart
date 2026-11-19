@@ -15,7 +15,7 @@ class _MainApp extends State<MainFull> {
   TextEditingController _controller = TextEditingController();
   String _resultado = "";
 
-
+  void _buscar() async{
     
 
     String url = "https://viacep.com.br/ws/"+_controller.text+"/json/";
