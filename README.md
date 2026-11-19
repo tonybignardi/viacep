@@ -1,3 +1,4 @@
 # cep
 
-A new Flutter project.
+Um projeto flutter para a disciplina de 
+DMOB - TSI - IFMS - COXIM
