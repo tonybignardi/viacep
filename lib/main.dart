@@ -19,7 +19,7 @@ class _MainApp extends State<MainFull> {
     
 
     String url = "https://viacep.com.br/ws/"+_controller.text+"/json/";
-    http.Response resposta = await http.get(Uri.parse(url));
+    http.Response resp  osta = await http.get(Uri.parse(url));
     Map<String, dynamic> dados = jsonDecode(resposta.body);
 
     setState(() {
