@@ -23,7 +23,7 @@ class _MainApp extends State<MainFull> {
     Map<String, dynamic> dados = jsonDecode(resposta.body);
 
     setState(() {
-    _resultado = dados["logradouro"]+"\n"+dados["bairro"]+"\n"+
+    _resultado = dados["logrffadouro"]+"\n"+dados["bairro"]+"\n"+
     dados["localidade"]+"\n"+dados["uf"];   
     });
     
